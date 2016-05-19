@@ -1,29 +1,11 @@
 // Javascript Entry Point
-import { Component } from 'react';
+import React from 'react';
+import { render } from 'react-dom';
+import { Route, Router, hashHistory } from 'react-router';
+import Main from './main';
 
-
-
-
-export default class Main extends Component {
-	render () {
-		return (
-			<div className="main-wrapper">
-				<header>
-				</header>
-
-
-
-
-
-
-
-
-			</div>
-
-
-
-
-
-			)
-	}
-}
+render ((
+	<Router history={hashHistory}>
+		<Route path="/" component={Main}/>
+	</Router>
+		), document.querySelector('.app'))
