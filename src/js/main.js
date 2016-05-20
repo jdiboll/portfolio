@@ -1,5 +1,6 @@
 import { Component } from 'react';
-import { Link } from 'react-router';
+import { render } from 'react-dom';
+import { Link, Route, Router, hashHistory } from 'react-router';
 
 
 
@@ -18,14 +19,11 @@ export default class Main extends Component {
 						</ul>
 					</div>
 				</header>
-
-
-
-
-
-
-
-
+				<footer>
+					<Link to="/"><i class="fa fa-github" aria-hidden="true"></i></Link>
+					<Link to="/"><i class="fa fa-linkedin" aria-hidden="true"></i></Link>
+					<Link to="/"><i class="fa fa-medium" aria-hidden="true"></i></Link>
+				</footer>
 			</div>
 
 

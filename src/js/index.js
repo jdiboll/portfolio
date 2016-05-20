@@ -8,4 +8,4 @@ render ((
 	<Router history={hashHistory}>
 		<Route path="/" component={Main}/>
 	</Router>
-		), document.querySelector('.app'))
+		), document.querySelector('.app'));
