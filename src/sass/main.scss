@@ -14,11 +14,14 @@
 	color: #fff;
 	font-size: 32px;
 	padding: 20px;
+	margin-right: 100px;
+	text-shadow: 1px 1px 2px #666666;
 
 }
 
 header {
 	display: flex;
+	flex-wrap: wrap;
 	width: 100%;
 	height: 85px;
 	background-color: #aebdaf;
@@ -53,18 +56,54 @@ li {
 	margin: 0;
 }
 .home-image {
-	background-image: url('file:///Users/joshuadiboll/Desktop/homeplace.jpg');
+	background-image: url('../images/homeplace.jpg');
 	margin-top: 85px;
 	background-size: cover;
+	//position: fixed;
 	width: 100%;
-	height: 100vh;
-	color: #666666;
-	//background-color: #dedecd;
-	//background: hsla(143, 6%, 91%, 0.42);
-	
+	height: 90vh;
+	h1 {
+		font-size: 50px;
+		color: #666666;
+		text-shadow: 1px 1px 2px black;
+		padding-top: 130px;
+		padding-left: 30px;
+		}
 }
 
+.about-me {
+	width: 100%;
+	background-color: #dedecd;
+	//border-top: 1px solid #f4f5ee;
+}
+.tagline  {
+	color: #666666;
+	//display: flex;
+	//justify-content: space-around;
+	display: inline-block;
+	text-align: center;
+	width: 95%;
+	height: auto;
+	font-size: 28px;
+}
 
+.tagline img {
+	width: 150px;
+	height: auto;
+	border-radius: 50px;
+	box-shadow: 0 5px 5px -3px #666666;
+}
+.tagline p {
+	max-width: 500px;
+	text-align: center;
+	margin-bottom: 0;
+}
+.tagline ul {
+	margin: 0;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
 
 footer {
 	width: 100%;
