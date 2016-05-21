@@ -32,12 +32,10 @@ header {
 	//background-size: cover;
 	position: fixed;
 	justify-content: space-around;
-	//display: inline-block;
-	//border-top: 3px solid #11191d;
-	//border-bottom: 3px solid #11191d;
+	
 }
 
-ul a {
+header ul a {
 	display: flex;
 	float: right;
 	text-decoration: none;
@@ -47,13 +45,26 @@ ul a {
 	color: #fff;
 	//display: inline-block;
 	font-size: 16px;
+	&:hover {
+		background: white;
+		border-radius: 3px;
+		color: #aebdaf;
+	}
 }
 
-
-li {
+ li{
 	display: inline-block;
 	padding: 15px;
 	margin: 0;
+	
+}
+.header-list li {
+	display: inline-block;
+	padding: 15px;
+	margin: 0;
+	color: white;
+	background-color: #aebdaf;
+
 }
 .home-image {
 	background-image: url('../images/homeplace.jpg');
@@ -104,9 +115,32 @@ li {
 	flex-direction: row;
 	justify-content: center;
 }
+.tagline li {
+
+}
 
 footer {
 	width: 100%;
 	height: 86px;
+	background-color: #778472;
+	text-align: center;
 }
-
+footer ul {
+	margin: 0;
+}
+footer i.fa {
+	//display: flex;
+	//justify-content: space-between;
+	cursor: pointer;
+	color: #32551a;
+	font-size: 25px;
+	&:hover {
+		color: white;
+	}
+}
+footer li {
+	display: inline-block;;
+	width: 15%;
+	margin: 22px, 0;
+	text-align: center;
+}
