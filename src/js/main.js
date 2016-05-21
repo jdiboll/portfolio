@@ -1,5 +1,4 @@
-import { Component } from 'react';
-import { render } from 'react-dom';
+import React, { Component } from 'react';
 import { Link, Route, Router, hashHistory } from 'react-router';
 
 
@@ -19,17 +18,15 @@ export default class Main extends Component {
 						</ul>
 					</div>
 				</header>
+				<div className="home-image">
+				<h1>Let's get there together.</h1>
+				</div>
 				<footer>
-					<Link to="/"><i class="fa fa-github" aria-hidden="true"></i></Link>
-					<Link to="/"><i class="fa fa-linkedin" aria-hidden="true"></i></Link>
-					<Link to="/"><i class="fa fa-medium" aria-hidden="true"></i></Link>
+					<Link to="/"><i className="fa fa-github"></i></Link>
+					<Link to="/"><i className="fa fa-linkedin" aria-hidden="true"></i></Link>
+					<Link to="/"><i className="fa fa-medium" aria-hidden="true"></i></Link>
 				</footer>
 			</div>
-
-
-
-
-
 			)
 	}
 }
