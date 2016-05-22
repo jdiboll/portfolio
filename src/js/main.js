@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link, Route, Router, hashHistory } from 'react-router';
+import Final from './final';
 
 
 
@@ -26,13 +27,16 @@ export default class Main extends Component {
 						<ul>
 							<li><img src="../images/Josh Diboll-06 2015 Headshots at Lenox-0038.jpg"/></li>
 							<li><p>Hi, my name is Joshua. I create <strong>functional</strong> web applications 
-							that make the complex, <strong>simple.</strong>I'm passionate about the
-							 human connection and constantly curious why we do what we do.</p></li>
+							that turn the complex <strong>simple.</strong> I'm passionate about the
+							 human connection and constantly <strong>curious</strong> why we do what we do.</p></li>
 						</ul>
 					</div>
 				</div>
 				<div id="projects" className="project-wrapper">
-					<div className="final-project"></div>
+					<div className="final-project">
+						<h4>Inside The Park</h4>
+						<Link to="/final" ><img src="../images/Screen Shot 2016-05-21 at 3.43.23 PM.png"/></Link>
+					</div>
 					<div className="hackathon"></div>
 					<div className="iron-pics"></div>
 					<div className="ye-olde"></div>
