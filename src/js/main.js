@@ -43,14 +43,15 @@ export default class Main extends Component {
 					</div>
 					<div className="iron-pics">
 						<h4>Iron Pics</h4>
+						<Link to="/group"><img src="../images/group1.png"/></Link>
 					</div>
 					<div className="ye-olde">
 						<h4>Ye' Olde</h4>
-						<Link to="/olde"><img src="yeolde1.png"/></Link>
+						<Link to="/olde"><img src="../images/yeolde1.png"/></Link>
 					</div>
 					<div className="first-project">
 						<h4>Life in a Box</h4>
-						<Link to="/first"><img src="first1.png"/></Link>
+						<Link to="/first"><img src="../images/first1.png"/></Link>
 
 					</div>
 				</div>
