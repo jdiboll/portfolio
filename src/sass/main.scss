@@ -6,8 +6,9 @@
 
 
 * {
-	font-family: 'Roboto Condensed', sans-serif;
 	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;
+
 }
 
 .logo {
@@ -16,9 +17,13 @@
 	padding: 20px;
 	margin-right: 100px;
 	text-shadow: 1px 1px 2px #666666;
+	text-decoration: none;
 
 }
-
+a {
+	text-decoration: none;
+	color: #fafafa;
+}
 header {
 	display: flex;
 	flex-wrap: wrap;
@@ -49,6 +54,7 @@ header ul a {
 		background: white;
 		border-radius: 3px;
 		color: #aebdaf;
+
 	}
 }
 
@@ -64,6 +70,17 @@ header ul a {
 	margin: 0;
 	color: white;
 	background-color: #aebdaf;
+
+}
+.header-list i.fa {
+	cursor: pointer;
+	color: #32551a;
+	font-size: 25px;
+	&:hover {
+		color: white;
+		background: #32551a;
+		border-radius: 4px;
+	}
 
 }
 .home-image {
@@ -115,10 +132,17 @@ header ul a {
 	flex-direction: row;
 	justify-content: center;
 }
-.tagline li {
-
+.project-wrapper {
+	//display: flex;
+	font-size: 30px;
+	background: #fafafa;
 }
-
+.project-wrapper img {
+	width: 35%;
+	height: auto;
+	border-radius: 4px;
+	padding-bottom: 15px;
+}
 footer {
 	width: 100%;
 	height: 86px;
@@ -144,17 +168,105 @@ footer li {
 	margin: 22px, 0;
 	text-align: center;
 }
-.final-images img {
+ .final-images img {
 	width: 90%;
 	height: auto;
 	border-radius: 4px;
 	box-shadow: 0 5px 5px -3px #11191d;
 }
-.final-info {
+.hackathon-images img {
+	width: 90%;
+	height: auto;
+	border-radius: 4px;
+	box-shadow: 0 5px 5px -3px #11191d;
+}
+.first-images img {
+	width: 90%;
+	height: auto;
+	border-radius: 4px;
+	box-shadow: 0 5px 5px -3px #11191d;
+}
+.group-images img {
+	width: 90%;
+	height: auto;
+	border-radius: 4px;
+	box-shadow: 0 5px 5px -3px #11191d;
+}
+.olde-images img {
+	width: 90%;
+	height: auto;
+	border-radius: 4px;
+	box-shadow: 0 5px 5px -3px #11191d;
+}
+
+.final-info  {
 	margin-top: 85px;
+	font-size: 25px;
+	padding-top: 10px;
 	text-align: center;
 	background-color: #fafafa;
+	a {
+		color: #778472;
+	}
+
 }
+.hackathon-info {
+	margin-top: 85px;
+	font-size: 25px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #fafafa;
+	a {
+		color: #778472;
+	}
+}
+.first-info {
+	margin-top: 85px;
+	font-size: 25px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #fafafa;
+	a {
+		color: #778472;
+	}
+}
+.group-info {
+	margin-top: 85px;
+	font-size: 25px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #fafafa;
+	a {
+		color: #778472;
+	}
+}
+.olde-info {
+	margin-top: 85px;
+	font-size: 25px;
+	padding-top: 10px;
+	text-align: center;
+	background-color: #fafafa;
+	a {
+		color: #778472;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

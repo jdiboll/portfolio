@@ -6,7 +6,7 @@ export default class Hackathon extends Component {
 		return (
 				<div className="hakathon-wrapper">
 				<header>
-					<div className="logo">JOSHUA DIBOLL</div>
+					<div className="logo"><Link to="/">JOSHUA DIBOLL</Link></div>
 						<div className="header-list">
 							<ul>
 								<li><a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -24,7 +24,7 @@ export default class Hackathon extends Component {
 						media app that dealt with users seeking and providing encouragement I was rsponsable for development</p>
 						<a href="https://github.com/mudr/frontend"><i className="fa fa-github"></i></a>
 					</div>
-				<div className="hackathon-images">
+				<div className="hackathon-images" id="images">
 					<ul>
 						<li><img src="../images/hackathon2.png"/></li>
 						<li><img src="../images/hackathon3.png"/></li>

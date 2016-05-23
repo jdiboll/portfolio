@@ -6,7 +6,7 @@ export default class Final extends Component {
 		return (
 				<div className="final-wrapper">
 				<header>
-					<div className="logo">JOSHUA DIBOLL</div>
+					<div className="logo"><Link to="/">JOSHUA DIBOLL</Link></div>
 						<div className="header-list">
 							<ul>
 								<li><a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -24,7 +24,7 @@ export default class Final extends Component {
 					classic American road trip for baseball fans. I was responsible for Design, UI, and Development.</p>
 					<a href="https://github.com/insidethepark/frontend"><i className="fa fa-github"></i></a>
 				</div>
-				<div className="final-images">
+				<div className="final-images" id="images">
 					<ul>
 						<li><img src="../images/insidethepark1.png"/></li>
 						<li><img src="../images/insidethepark2.png"/></li>

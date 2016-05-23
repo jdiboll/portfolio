@@ -6,7 +6,7 @@ export default class Olde extends Component {
 		return (
 				<div className="Olde-wrapper">
 				<header>
-					<div className="logo">JOSHUA DIBOLL</div>
+					<div className="logo"><Link to="/">JOSHUA DIBOLL</Link></div>
 						<div className="header-list">
 							<ul>
 								<li><a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -15,16 +15,16 @@ export default class Olde extends Component {
 							</ul>
 						</div>
 				</header>
-				<div className="Olde-info">
-					<div className="Olde-heading">
-						<h1>Mudr</h1>
+				<div className="olde-info">
+					<div className="olde-heading">
+						<h1>Ye' Olde</h1>
 					</div>
-					<div className="Olde-about">
+					<div className="olde-about">
 						<p>Creating a wep page for an imaginary restaurant. Ye' Olde was a group project
 						in which I was was responsible only for development</p>
 						<a href="https://github.com/jdiboll/restaurant"><i className="fa fa-github"></i></a>
 					</div>
-				<div className="Olde-images">
+				<div className="olde-images" id="images">
 					<ul>
 						<li><img src="../images/yeolde2.png"/></li>
 						<li><img src="../images/yeolde3.png"/></li>

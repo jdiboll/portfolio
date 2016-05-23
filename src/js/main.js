@@ -13,7 +13,7 @@ export default class Main extends Component {
 					<div className="logo">JOSHUA DIBOLL</div>
 						<div className="header-list">
 						<ul>
-							<li><a href="#/#projects">PROJECTS</a></li>
+							<li><a href="#projects">PROJECTS</a></li>
 							<li><a href="#/#contact">CONTACT</a></li>
 							<li><a href="#/#resume">RESUME</a></li>
 						</ul>
@@ -54,6 +54,13 @@ export default class Main extends Component {
 						<Link to="/first"><img src="../images/first1.png"/></Link>
 
 					</div>
+				</div>
+				<div className="contact-list">
+					<h2>Contact Me</h2>
+					<ul>
+						<li><i class="fa fa-phone" aria-hidden="true"></i>Call me at (334)328-1727</li>
+						<li><i class="fa fa-envelope" aria-hidden="true"></i>Message me at joshuadiboll@gmail.com</li>
+					</ul>
 				</div>
 				<footer>
 					<ul>

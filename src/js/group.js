@@ -6,7 +6,7 @@ export default class Group extends Component {
 		return (
 				<div className="group-wrapper">
 				<header>
-					<div className="logo">JOSHUA DIBOLL</div>
+					<div className="logo"><Link to="/">JOSHUA DIBOLL</Link></div>
 						<div className="header-list">
 							<ul>
 								<li><a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -24,7 +24,7 @@ export default class Group extends Component {
 						development and specifically design.</p>
 						<a href="https://github.com/picturegame/javascript"><i className="fa fa-github"></i></a>
 					</div>
-				<div className="group-images">
+				<div className="group-images" id="images">
 					<ul>
 						<li><img src="../images/group2.png"/></li>
 						<li><img src="../images/grou3.png"/></li>

@@ -17,6 +17,6 @@ render ((
 		<Route path="/hackathon" component={Hackathon}/>
 		<Route path="/group" component={Group}/>
 		<Route path="/olde" component={Olde}/>
-		<Route path="/first" comonent={First}/>
+		<Route path="/first" component={First}/>
 	</Router>
 		), document.querySelector('.app'));

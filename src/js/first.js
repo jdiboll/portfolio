@@ -6,7 +6,7 @@ export default class First extends Component {
 		return (
 				<div className="first-wrapper">
 				<header>
-					<div className="logo">JOSHUA DIBOLL</div>
+					<div className="logo"><Link to="/">JOSHUA DIBOLL</Link></div>
 						<div className="header-list">
 							<ul>
 								<li><a href="https://www.linkedin.com/profile/preview?locale=en_US&trk=prof-0-sb-preview-primary-button"><i className="fa fa-linkedin" aria-hidden="true"></i></a></li>
@@ -17,14 +17,14 @@ export default class First extends Component {
 				</header>
 				<div className="first-info">
 					<div className="first-heading">
-						<h1>Mudr</h1>
+						<h1>Life in a Box</h1>
 					</div>
 					<div className="first-about">
 						<p>My very first project. Using only HTML and CSS, I created my first static webpage
 						that would be the platform on which I would build my skills</p>
 						<a href="https://github.com/jdiboll/life_in_a_box"><i className="fa fa-github"></i></a>
 					</div>
-				<div className="first-images">
+				<div className="first-images" id="images">
 					<ul>
 						<li><img src="../images/first2.png"/></li>
 						<li><img src="../images/first3.png"/></li>
