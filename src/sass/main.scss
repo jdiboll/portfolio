@@ -136,12 +136,34 @@ header ul a {
 	//display: flex;
 	font-size: 30px;
 	background: #fafafa;
+	display: inline-block;
 }
 .project-wrapper img {
-	width: 35%;
+	width: 400px;
 	height: auto;
 	border-radius: 4px;
-	padding-bottom: 15px;
+	padding: 15px;
+	&:hover {
+		background-color: #813107;
+		transition: 0.3s all ease;
+	}
+}
+.contact-list {
+	background-color: #d6d6d6;
+	text-align: center;
+	font-size: 22px;
+	i.fa {
+		padding: 4px;
+	}
+}
+.contact-list h2 {
+	margin-top: 0;
+	padding-top: 28px;
+	text-shadow: 1px 1px 2px #666666;
+}
+.contact-list ul {
+	margin-bottom: 0;
+	padding-bottom: 22px;
 }
 footer {
 	width: 100%;
@@ -163,7 +185,7 @@ footer i.fa {
 	}
 }
 footer li {
-	display: inline-block;;
+	display: inline-block;
 	width: 15%;
 	margin: 22px, 0;
 	text-align: center;

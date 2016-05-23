@@ -14,8 +14,8 @@ export default class Main extends Component {
 						<div className="header-list">
 						<ul>
 							<li><a href="#projects">PROJECTS</a></li>
-							<li><a href="#/#contact">CONTACT</a></li>
-							<li><a href="#/#resume">RESUME</a></li>
+							<li><a href="#contact">CONTACT</a></li>
+							<li><a href="https://docs.google.com/document/d/16c9hmpT8mFhzA-ey_ef_KagoiNdgFwsO1dhvU8f8pJY/edit?usp=sharing">RESUME</a></li>
 						</ul>
 					</div>
 				</header>
@@ -33,33 +33,34 @@ export default class Main extends Component {
 					</div>
 				</div>
 				<div id="projects" className="project-wrapper">
-					<div className="final-project">
+					<ul>
+					<li><div className="final-project">
 						<h4>Inside The Park</h4>
 						<Link to="/final" ><img src="../images/Screen Shot 2016-05-21 at 3.43.23 PM.png"/></Link>
-					</div>
-					<div className="hackathon">
+					</div></li>
+					<li><div className="hackathon">
 						<h4>Mudr</h4>
 						<Link to="/hackathon"><img src="../images/hackathon1.png"/></Link>
-					</div>
-					<div className="iron-pics">
+					</div></li>
+					<li><div className="iron-pics">
 						<h4>Iron Pics</h4>
 						<Link to="/group"><img src="../images/group1.png"/></Link>
-					</div>
-					<div className="ye-olde">
+					</div></li>
+					<li><div className="ye-olde">
 						<h4>Ye' Olde</h4>
 						<Link to="/olde"><img src="../images/yeolde1.png"/></Link>
-					</div>
-					<div className="first-project">
+					</div></li>
+					<li><div className="first-project">
 						<h4>Life in a Box</h4>
 						<Link to="/first"><img src="../images/first1.png"/></Link>
-
-					</div>
+					</div></li>
+					</ul>
 				</div>
-				<div className="contact-list">
+				<div className="contact-list" id="contact">
 					<h2>Contact Me</h2>
 					<ul>
-						<li><i class="fa fa-phone" aria-hidden="true"></i>Call me at (334)328-1727</li>
-						<li><i class="fa fa-envelope" aria-hidden="true"></i>Message me at joshuadiboll@gmail.com</li>
+						<li><i className="fa fa-phone" aria-hidden="true"></i>Call me at (334)328-1727</li>
+						<li><i className="fa fa-envelope" aria-hidden="true"></i>Message me at joshuadiboll@gmail.com</li>
 					</ul>
 				</div>
 				<footer>
