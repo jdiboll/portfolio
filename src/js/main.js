@@ -39,11 +39,20 @@ export default class Main extends Component {
 					</div>
 					<div className="hackathon">
 						<h4>Mudr</h4>
-						<Link to="/hackathon"><img src="../images/hackathon1"/></Link>
+						<Link to="/hackathon"><img src="../images/hackathon1.png"/></Link>
 					</div>
-					<div className="iron-pics"></div>
-					<div className="ye-olde"></div>
-					<div className="first-project"></div>
+					<div className="iron-pics">
+						<h4>Iron Pics</h4>
+					</div>
+					<div className="ye-olde">
+						<h4>Ye' Olde</h4>
+						<Link to="/olde"><img src="yeolde1.png"/></Link>
+					</div>
+					<div className="first-project">
+						<h4>Life in a Box</h4>
+						<Link to="/first"><img src="first1.png"/></Link>
+
+					</div>
 				</div>
 				<footer>
 					<ul>

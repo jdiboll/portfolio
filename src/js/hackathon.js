@@ -26,8 +26,8 @@ export default class Hackathon extends Component {
 					</div>
 				<div className="hackathon-images">
 					<ul>
-						<li><img src="../images/insidethepark1.png"/></li>
-						<li><img src="../images/insidethepark2.png"/></li>
+						<li><img src="../images/hackathon2.png"/></li>
+						<li><img src="../images/hackathon3.png"/></li>
 					</ul>
 				</div>
 				</div>
