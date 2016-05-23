@@ -20,7 +20,7 @@ export default class Group extends Component {
 						<h1>Iron Pics</h1>
 					</div>
 					<div className="group-about">
-						<p>A picture-guessing game created in as a group project. The first project created using a backend, I was responsible for 
+						<p>A picture-guessing game created as a group project. The first project created using a Backend, I was responsible for 
 						development and specifically design.</p>
 						<a href="https://github.com/picturegame/javascript"><i className="fa fa-github"></i></a>
 					</div>

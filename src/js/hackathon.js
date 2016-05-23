@@ -21,7 +21,7 @@ export default class Hackathon extends Component {
 					</div>
 					<div className="hackathon-about">
 						<p>Hackathon project at The Iron Yard. My first experience with the Hackathon atmosphere. A social 
-						media app that dealt with users seeking and providing encouragement I was rsponsable for development</p>
+						media app that dealt with users seeking and providing encouragement. I was responsible for development.</p>
 						<a href="https://github.com/mudr/frontend"><i className="fa fa-github"></i></a>
 					</div>
 				<div className="hackathon-images" id="images">

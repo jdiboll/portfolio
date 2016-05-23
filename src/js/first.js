@@ -20,8 +20,8 @@ export default class First extends Component {
 						<h1>Life in a Box</h1>
 					</div>
 					<div className="first-about">
-						<p>My very first project. Using only HTML and CSS, I created my first static webpage
-						that would be the platform on which I would build my skills</p>
+						<p>My very first project. Using only HTML and CSS, I created a static webpage
+						that would be the platform upon which I would build my skills.</p>
 						<a href="https://github.com/jdiboll/life_in_a_box"><i className="fa fa-github"></i></a>
 					</div>
 				<div className="first-images" id="images">
