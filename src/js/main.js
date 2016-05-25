@@ -15,7 +15,7 @@ export default class Main extends Component {
 						<ul>
 							<li><a href="#projects">PROJECTS</a></li>
 							<li><a href="#contact">CONTACT</a></li>
-							<li><a href="https://docs.google.com/document/d/1t9qsk_Zeb_kZetrYZ8bHhavsKKJaHhYq6LbP0RzjzgU/edit#heading=h.mpvdluc848ko">RESUME</a></li>
+							<li><a href="https://docs.google.com/document/d/1t9qsk_Zeb_kZetrYZ8bHhavsKKJaHhYq6LbP0RzjzgU/edit?usp=sharing">RESUME</a></li>
 						</ul>
 					</div>
 				</header>
