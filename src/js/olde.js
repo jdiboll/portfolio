@@ -21,7 +21,7 @@ export default class Olde extends Component {
 					</div>
 					<div className="olde-about">
 						<p>Creating a wep page for an imaginary restaurant. Ye' Olde was a group project
-						in which I was responsible for development</p>
+						in which I was responsible for development.</p>
 						<a href="https://github.com/jdiboll/restaurant"><i className="fa fa-github"></i></a>
 					</div>
 				<div className="olde-images" id="images">
