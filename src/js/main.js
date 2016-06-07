@@ -36,7 +36,7 @@ export default class Main extends Component {
 					<ul>
 					<li><div className="final-project">
 						<h4>Inside The Park</h4>
-						<Link to="/final" ><img src="../images/Screen Shot 2016-05-21 at 3.43.23 PM.png"/></Link>
+						<Link to="/final" ><img src="../images/insidethepark04.png"/></Link>
 					</div></li>
 					<li><div className="hackathon">
 						<h4>Mudr</h4>
