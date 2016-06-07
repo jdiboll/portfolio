@@ -59,8 +59,8 @@ export default class Main extends Component {
 				<div className="contact-list" id="contact">
 					<h2>Contact Me</h2>
 					<ul>
-						<li><i className="fa fa-phone" aria-hidden="true"></i>Call me at (334)328-1727</li>
-						<li><i className="fa fa-envelope" aria-hidden="true"></i>Message me at joshuadiboll@gmail.com</li>
+						<li><i className="fa fa-phone" aria-hidden="true"></i> (334)328-1727</li>
+						<li><i className="fa fa-envelope" aria-hidden="true"></i> joshuadiboll@gmail.com</li>
 					</ul>
 				</div>
 				<footer>
