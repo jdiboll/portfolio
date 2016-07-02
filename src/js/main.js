@@ -21,6 +21,7 @@ export default class Main extends Component {
 				</header>
 				<div className="home-image">
 				<h1>Let's get there together.</h1>
+				<h3>Front End Developer</h3>
 				</div>
 				<div className="about-me">
 					<div className="tagline">
