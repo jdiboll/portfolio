@@ -39,6 +39,10 @@ export default class Main extends Component {
 						<h4>Inside The Park</h4>
 						<Link to="/final" ><img src="../images/insidethepark05.png"/></Link>
 					</div></li>
+					<li><div className="first-project">
+						<h4>Splurfoozle</h4>
+						<Link to="/first"><img src="../images/first01.png"/></Link>
+					</div></li>
 					<li><div className="hackathon">
 						<h4>Mudr</h4>
 						<Link to="/hackathon"><img src="../images/hackathon1.png"/></Link>
@@ -50,10 +54,6 @@ export default class Main extends Component {
 					<li><div className="ye-olde">
 						<h4>Ye' Olde</h4>
 						<Link to="/olde"><img src="../images/yeolde1.png"/></Link>
-					</div></li>
-					<li><div className="first-project">
-						<h4>Life in a Box</h4>
-						<Link to="/first"><img src="../images/first1.png"/></Link>
 					</div></li>
 					</ul>
 				</div>
