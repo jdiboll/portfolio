@@ -39,6 +39,10 @@ export default class Main extends Component {
 						<h4>Inside The Park</h4>
 						<Link to="/final" ><img src="../images/insidethepark05.png"/></Link>
 					</div></li>
+					<li><div className="apollo-project">
+						<h4>Apollo Professional Development</h4>
+						<Link to="/apollo" ><img src="../images/apollo1.png"/></Link>
+					</div></li>
 					<li><div className="first-project">
 						<h4>Splurfoozle</h4>
 						<Link to="/first"><img src="../images/first01.png"/></Link>

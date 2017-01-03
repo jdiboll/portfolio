@@ -17,7 +17,7 @@ export default class Apollo extends Component {
 				</header>
 				<div className="apollo-info">
 				<div className="apollo-heading">
-					<h1>Inside The Park</h1>
+					<h1>Apollo Professional Development</h1>
 				</div>
 				<div className="apollo-about">
 					<p>Working with Apollo Education Group to create and re-brand their Wordpress site.site. I was responsible 
@@ -26,8 +26,8 @@ export default class Apollo extends Component {
 				</div>
 				<div className="apollo-images" id="images">
 					<ul>
-						<li><img src="../images/insidethepark1.png"/></li>
-						<li><img src="../images/insidethepark2.png"/></li>
+						<li><img src="../images/apollo2.png"/></li>
+						<li><img src="../images/apollo3.png"/></li>
 					</ul>
 				</div>
 				</div>
