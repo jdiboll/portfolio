@@ -20,7 +20,7 @@ export default class Apollo extends Component {
 					<h1>Apollo Professional Development</h1>
 				</div>
 				<div className="apollo-about">
-					<p>Working with Apollo Education Group to create and re-brand their Wordpress site.site. I was responsible 
+					<p>Working with Apollo Education Group to create and re-brand their Wordpress site. I was responsible 
 					for SEO, Site Security, and Content. I had a hand in Design as well.</p>
 					<a href="apollopd.com">Site Link</a>
 				</div>
