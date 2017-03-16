@@ -23,7 +23,7 @@ export default class Final extends Component {
 					<p>This was my final project at The Iron Yard: A web application that offers a convenient and abundant resource for planning a 
 					classic American road trip for baseball fans. I was responsible for Design, UI, and Development.</p>
 					<a href="https://github.com/insidethepark/frontend"><i className="fa fa-github"></i></a>
-					<a href="tiy-2016q1-danielrevo-inside-the-park.surge.sh">Site Link</a>
+					<a href="http://tiy-2016q1-danielrevo-inside-the-park.surge.sh">Site Link</a>
 				</div>
 				<div className="final-images" id="images">
 					<ul>
